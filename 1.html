@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+ <title>1. 최대최소정리</title>
+ <meta charset="utf-8">
+ <style>
+    h1,h3{
+        text-align:center;
+        line-height: 0.5;
+    }
+    a{
+        color:black;
+        text-decoration: none;
+    }
+    h4{
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em
+    }
+    p{
+        margin: 5px;
+    }
+</style>
+</head>
+<body>
+    <h1><a href="0.html">평균값 정리(MVT)</a></h1>
+    <h3>1. 최대최소정리</h3>
+    <h4>최대최소정리의 뜻</h4>
+    <p>함수 f(x)가 <a href="1-1.html" target="_blank" title="연속이 뭔가요?">닫힌구간 [a,b]에서 <u><b>연속</u></b></a>이면 함수 f(x)는 이 구간에서 반드시 최댓값과
+최솟값을 가진다.
+    <h4>증명</h4>
+    고등과정을 벗어나는 내용입니다만, 대략적으로 증명해보자면
+    <br>1) <a href="1-2.html" target="_blank" title="유계정리가 뭔가요?">유계정리*</a>에 의해 f(x)는 <a href="1-2.html" target="_blank" title="상한이 뭔가요?">상한*</a>을 갖는다.
+    <br>2) f(x)의 상한을 u라하면 상한의 정의에 의해 u로 수렴하는 수열 f(xn)이 존재한다.
+    <br>3) xn은 유계수열이므로 <a href="1-2.html" target="_blank" title="Bolzano-Weierstrass 정리가 뭔가요?">Bolzano-Weierstrass 정리*</a>에 의해 수렴하는 부분수열 xnk를 갖고, xnk의 극한값을 c라하면 c는 닫힌구간 [a, b]에 속한다.
+    <br>4) f(x)가 x=c에서 연속이므로 연속의 정의에 f(xnk)의 극한값은 f(c)와 같다.
+    <br>5) 수렴하는 수열의 성질에 의해 f(xn)의 극한값 u는 f(xnk)의 극한값과 같다.
+    <br>6) 즉 f(c)=u이고 f(x)는 닫힌구간 [a, b]에서 최댓값을 갖는다. 같은방법으로 f(x)가 [a, b]에서 최솟값을 가짐을 보일 수 있다.
+</body>
