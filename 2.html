@@ -3,60 +3,7 @@
 <head>
  <title>2. 롤의 정리</title>
  <meta charset="utf-8">
- <style>
-    #title{
-        text-align:center;
-        padding:25px;
-        border-bottom: solid grey;
-        margin: 0;
-    }
-    h1,h3,h4{
-        margin: 0;
-    }
-    #grid{
-        display:grid;
-        grid-template-columns: 200px 1fr;
-    }
-    ol, #grid_1{
-        margin-top:0px;
-        padding-left:30px;
-        padding-top:10px;
-    }
-    ol{    
-        border-right: solid grey; 
-    }
-    a{        
-        color:black;
-        text-decoration-line:none;
-    }
-    #grid_1 a{
-        text-decoration-line:underline;
-    }
-    #grid_1 ol{
-        padding-top:5px;
-     }
-    .img{
-        border-bottom:solid black 1.5px;   
-    }
-    li{
-        padding:3px;
-    }
-    @media(max-width:640px){
-        #grid{
-            display:block;
-        }
-        ol{
-            border-right: none;
-        }
-        img{
-            display:none;
-        }
-        h1{
-            border-bottom: none;
-            font-size: 25px;
-        }
-    } 
-</style>
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="title">
@@ -85,7 +32,7 @@
               2) x=c에서 최댓값 f(c)를 가진다면 절댓값이 충분히 작은 0이 아닌 실수 h에 대하여<br>
               h가 양수이면 <img src="우 평균변화율.jpg" height="40px">, h가 음수이면 <img src="좌 평균변화율.jpg" height="40px">이다.<br>
               3) 그런데 함수 f(x)는 x=c에서 미분가능하므로 좌극한과 우극한이 같아야한다.<br>
-              즉, <span class="img"><a href="2-2.html" target="_blank" title="함수의 극한의 대소관계"><img src="좌우 미분계수.jpg" height="40px"></a></span> 이다.
+              즉, <span class="img"><a href="2-2.html" target="_blank" title="함수의 극한의 대소관계"><img src="좌우 미분계수.jpg" height="40px"></a></span>이다.<br><br>
                   <div style="text-align:center"><img src="좌우평균변화율 그림.jpg" height="250px"></div>
               4) 따라서 <img src="미분계수.jpg" height="40px">이다.<br>
               5) 같은방법으로 x=c에서 최솟값을 가질 때에도 f'(c)=0임을 보일 수 있다.

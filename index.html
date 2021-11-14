@@ -3,55 +3,26 @@
 <head>
   <title>평균값 정리</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
   <style>
-    h1{
-        text-align:center;
-        padding:25px;
-        border-bottom: solid grey;
-        margin: 0;
-    }
-    a{
-        color:black;
-        font-weight: bold;
-        text-decoration-line:none;
-    }
-    ol, p{
-        margin-top:0px;
-        padding-left:30px;
-        padding-top:10px;
-    }
-    ol{    
-        border-right: solid grey; 
-    }
-    #grid{
-        display:grid;
-        grid-template-columns: 200px 1fr;
-    }
     @media(max-width:640px){
-        #grid{
-            display:block;
-        }
-        ol{
-            border-right: none;
-        }
         img{
             display:none;
-        }
-        h1{
-            border-bottom: none;
-            font-size: 25px;
         }
     }    
 </style>
 </head>
 <body>
-    <h1><a href="index.html">평균값 정리(MVT)</a></h1>
+    <div id="title">
+        <h1><a href="index.html">평균값 정리(MVT)</a></h1>
+    </div>
     <div id="grid">
-        <ol>
+        <ol style="font-weight:bold;">
           <li><a href="1.html">최대최소정리<br></a></li>
           <li><a href="2.html">롤의정리<br></a></li>
           <li><a href="3.html">평균값 정리<br></a></li>
         </ol>
+        <div id="grid_1">
         <p>
           <img src="평균값정리.jpg" width="300px"><br>
           안녕하세요. 수학선생님 김지현입니다.<br>
@@ -60,5 +31,6 @@
           증명과정에서 쓰이는 여러 정리들 하나하나가 수학에서 아주 중요한 역할들을 하기 때문입니다.<br>
           그럼 이제부터 하나하나 시작해볼까요?
         </p>
+        </div>
     </div>  
 </body>
