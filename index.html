@@ -23,11 +23,25 @@
     ol{    
         border-right: solid grey; 
     }
-
     #grid{
         display:grid;
         grid-template-columns: 200px 1fr;
     }
+    @media(max-width:640px){
+        #grid{
+            display:block;
+        }
+        ol{
+            border-right: none;
+        }
+        img{
+            display:none;
+        }
+        h1{
+            border-bottom: none;
+            font-size: 25px;
+        }
+    }    
 </style>
 </head>
 <body>
