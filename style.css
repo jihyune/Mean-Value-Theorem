@@ -50,4 +50,8 @@ li{
         border-bottom: none;
         font-size: 25px;
     }
+    ul{
+        list-style-type:lower-alpha;
+        padding-left: 15px;
+    }
 } 
