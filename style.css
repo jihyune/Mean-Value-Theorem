@@ -36,6 +36,10 @@ a{
 .img2{
     margin-left:120px; 
 }
+ul{
+    list-style-type:lower-alpha;
+    padding-left: 15px;
+}
 li{
     padding:3px;
 }
@@ -49,9 +53,5 @@ li{
     h1{
         border-bottom: none;
         font-size: 25px;
-    }
-    ul{
-        list-style-type:lower-alpha;
-        padding-left: 15px;
     }
 } 
