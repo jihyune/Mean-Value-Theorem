@@ -30,6 +30,12 @@ a{
     padding-top:0;
     border-right: none;
  }
+.box{
+    border:2px solid grey;
+    margin:10px;
+    width:600px;
+    padding:10px; 
+}
 .img{
     border-bottom:solid black 1.5px;   
 }
@@ -54,4 +60,4 @@ li{
         border-bottom: none;
         font-size: 25px;
     }
-} 
+}

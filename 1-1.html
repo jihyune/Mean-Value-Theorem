@@ -2,22 +2,19 @@
 <html>
 <head>
  <title>연속</title>
- <style>
- .box{
-    border:2px solid black;
-    margin:10px;
-    width:600px;
-    padding:10px; 
-}
-</style>
+ <link rel="stylesheet" href="style.css">
+ <script src="night_day.js"></script>
 </head>
 <body>
+    <div style="text-align: right;">
+        <input id="once" type="button" value="night ver" onclick="NightDayHandler(this)">
+    </div>
     <div class="box">
-    <p><h3>f(x)가 x=a에서 연속이다.</h3>
+    <p><h3>f(x)가 <span class="highlight" style="color:blue">x=a에서</span> 연속이다.</h3>
     <img src="연속.jpg" width="500px"><br></p>
     </div>
     <div class="box">
-    <p><h3>f(x)가 닫힌 구간 [a, b]에서 연속이다.</h3>
+    <p><h3>f(x)가 <span class="highlight" style="color:blue">닫힌 구간 [a, b]에서</span> 연속이다.</h3>
     <img src="구간연속.jpg" width="500px"></p>
     </div>
 </body>
