@@ -1,7 +1,7 @@
 function password(){
     var count = 0;    
     while(count < 3){
-        var pass = prompt("비밀번호를 입력하세요.")
+        var pass = prompt("비밀번호를 입력하세요.(1002)")
     if (pass === "1002"){
         alert("환영합니다^0^");
         break;
